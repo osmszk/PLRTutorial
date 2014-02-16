@@ -13,16 +13,14 @@
 		97998BF818B0693200634D78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97998BF618B0693200634D78 /* InfoPlist.strings */; };
 		97998BFA18B0693200634D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998BF918B0693200634D78 /* main.m */; };
 		97998BFE18B0693200634D78 /* PLRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998BFD18B0693200634D78 /* PLRAppDelegate.m */; };
-		97998C0118B0693200634D78 /* PLRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C0018B0693200634D78 /* PLRRootViewController.m */; };
-		97998C0418B0693200634D78 /* PLRDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C0318B0693200634D78 /* PLRDataViewController.m */; };
-		97998C0718B0693200634D78 /* PLRModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C0618B0693200634D78 /* PLRModelController.m */; };
-		97998C0A18B0693200634D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97998C0818B0693200634D78 /* Main.storyboard */; };
 		97998C0C18B0693200634D78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97998C0B18B0693200634D78 /* Images.xcassets */; };
 		97998C1318B0693200634D78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97998C1218B0693200634D78 /* XCTest.framework */; };
 		97998C1418B0693200634D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97998BED18B0693200634D78 /* Foundation.framework */; };
 		97998C1518B0693200634D78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97998BF118B0693200634D78 /* UIKit.framework */; };
 		97998C1D18B0693200634D78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97998C1B18B0693200634D78 /* InfoPlist.strings */; };
 		97998C1F18B0693200634D78 /* TheTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C1E18B0693200634D78 /* TheTutorialTests.m */; };
+		97998C2B18B06A4900634D78 /* PLRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C2918B06A4900634D78 /* PLRViewController.m */; };
+		97998C2C18B06A4900634D78 /* PLRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97998C2A18B06A4900634D78 /* PLRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,19 +44,15 @@
 		97998BFB18B0693200634D78 /* TheTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		97998BFC18B0693200634D78 /* PLRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRAppDelegate.h; sourceTree = "<group>"; };
 		97998BFD18B0693200634D78 /* PLRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRAppDelegate.m; sourceTree = "<group>"; };
-		97998BFF18B0693200634D78 /* PLRRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRRootViewController.h; sourceTree = "<group>"; };
-		97998C0018B0693200634D78 /* PLRRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRRootViewController.m; sourceTree = "<group>"; };
-		97998C0218B0693200634D78 /* PLRDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRDataViewController.h; sourceTree = "<group>"; };
-		97998C0318B0693200634D78 /* PLRDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRDataViewController.m; sourceTree = "<group>"; };
-		97998C0518B0693200634D78 /* PLRModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRModelController.h; sourceTree = "<group>"; };
-		97998C0618B0693200634D78 /* PLRModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRModelController.m; sourceTree = "<group>"; };
-		97998C0918B0693200634D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97998C0B18B0693200634D78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97998C1118B0693200634D78 /* TheTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97998C1218B0693200634D78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		97998C1A18B0693200634D78 /* TheTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		97998C1C18B0693200634D78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97998C1E18B0693200634D78 /* TheTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheTutorialTests.m; sourceTree = "<group>"; };
+		97998C2818B06A4900634D78 /* PLRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRViewController.h; sourceTree = "<group>"; };
+		97998C2918B06A4900634D78 /* PLRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRViewController.m; sourceTree = "<group>"; };
+		97998C2A18B06A4900634D78 /* PLRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +114,9 @@
 			children = (
 				97998BFC18B0693200634D78 /* PLRAppDelegate.h */,
 				97998BFD18B0693200634D78 /* PLRAppDelegate.m */,
-				97998BFF18B0693200634D78 /* PLRRootViewController.h */,
-				97998C0018B0693200634D78 /* PLRRootViewController.m */,
-				97998C0218B0693200634D78 /* PLRDataViewController.h */,
-				97998C0318B0693200634D78 /* PLRDataViewController.m */,
-				97998C0518B0693200634D78 /* PLRModelController.h */,
-				97998C0618B0693200634D78 /* PLRModelController.m */,
-				97998C0818B0693200634D78 /* Main.storyboard */,
+				97998C2818B06A4900634D78 /* PLRViewController.h */,
+				97998C2918B06A4900634D78 /* PLRViewController.m */,
+				97998C2A18B06A4900634D78 /* PLRViewController.xib */,
 				97998C0B18B0693200634D78 /* Images.xcassets */,
 				97998BF418B0693200634D78 /* Supporting Files */,
 			);
@@ -240,8 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97998C0C18B0693200634D78 /* Images.xcassets in Resources */,
+				97998C2C18B06A4900634D78 /* PLRViewController.xib in Resources */,
 				97998BF818B0693200634D78 /* InfoPlist.strings in Resources */,
-				97998C0A18B0693200634D78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97998BFA18B0693200634D78 /* main.m in Sources */,
-				97998C0418B0693200634D78 /* PLRDataViewController.m in Sources */,
-				97998C0118B0693200634D78 /* PLRRootViewController.m in Sources */,
-				97998C0718B0693200634D78 /* PLRModelController.m in Sources */,
 				97998BFE18B0693200634D78 /* PLRAppDelegate.m in Sources */,
+				97998C2B18B06A4900634D78 /* PLRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +281,6 @@
 				97998BF718B0693200634D78 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		97998C0818B0693200634D78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97998C0918B0693200634D78 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		97998C1B18B0693200634D78 /* InfoPlist.strings */ = {

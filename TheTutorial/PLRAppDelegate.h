@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class PLRViewController;
+
 @interface PLRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) PLRViewController *viewController;
 
 @end
