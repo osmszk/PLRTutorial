@@ -34,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97998BEA18B0693200634D78 /* TheTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97998BEA18B0693200634D78 /* PLRTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLRTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97998BED18B0693200634D78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97998BEF18B0693200634D78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		97998BF118B0693200634D78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		97998BF518B0693200634D78 /* TheTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheTutorial-Info.plist"; sourceTree = "<group>"; };
+		97998BF518B0693200634D78 /* PLRTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLRTutorial-Info.plist"; sourceTree = "<group>"; };
 		97998BF718B0693200634D78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97998BF918B0693200634D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97998BFB18B0693200634D78 /* TheTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		97998BFB18B0693200634D78 /* PLRTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLRTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		97998BFC18B0693200634D78 /* PLRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLRAppDelegate.h; sourceTree = "<group>"; };
 		97998BFD18B0693200634D78 /* PLRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRAppDelegate.m; sourceTree = "<group>"; };
 		97998C0B18B0693200634D78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		97998C1118B0693200634D78 /* TheTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97998C1118B0693200634D78 /* PLRTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLRTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97998C1218B0693200634D78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		97998C1A18B0693200634D78 /* TheTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		97998C1A18B0693200634D78 /* PLRTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLRTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		97998C1C18B0693200634D78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97998C1E18B0693200634D78 /* TheTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheTutorialTests.m; sourceTree = "<group>"; };
 		97998C2818B06A4900634D78 /* PLRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRViewController.h; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		97998BE118B0693200634D78 = {
 			isa = PBXGroup;
 			children = (
-				97998BF318B0693200634D78 /* TheTutorial */,
-				97998C1818B0693200634D78 /* TheTutorialTests */,
+				97998BF318B0693200634D78 /* PLRTutorial */,
+				97998C1818B0693200634D78 /* PLRTutorialTests */,
 				97998BEC18B0693200634D78 /* Frameworks */,
 				97998BEB18B0693200634D78 /* Products */,
 			);
@@ -92,8 +92,8 @@
 		97998BEB18B0693200634D78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97998BEA18B0693200634D78 /* TheTutorial.app */,
-				97998C1118B0693200634D78 /* TheTutorialTests.xctest */,
+				97998BEA18B0693200634D78 /* PLRTutorial.app */,
+				97998C1118B0693200634D78 /* PLRTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		97998BF318B0693200634D78 /* TheTutorial */ = {
+		97998BF318B0693200634D78 /* PLRTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				97998BFC18B0693200634D78 /* PLRAppDelegate.h */,
@@ -120,33 +120,35 @@
 				97998C0B18B0693200634D78 /* Images.xcassets */,
 				97998BF418B0693200634D78 /* Supporting Files */,
 			);
+			name = PLRTutorial;
 			path = TheTutorial;
 			sourceTree = "<group>";
 		};
 		97998BF418B0693200634D78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97998BF518B0693200634D78 /* TheTutorial-Info.plist */,
+				97998BF518B0693200634D78 /* PLRTutorial-Info.plist */,
 				97998BF618B0693200634D78 /* InfoPlist.strings */,
 				97998BF918B0693200634D78 /* main.m */,
-				97998BFB18B0693200634D78 /* TheTutorial-Prefix.pch */,
+				97998BFB18B0693200634D78 /* PLRTutorial-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		97998C1818B0693200634D78 /* TheTutorialTests */ = {
+		97998C1818B0693200634D78 /* PLRTutorialTests */ = {
 			isa = PBXGroup;
 			children = (
 				97998C1E18B0693200634D78 /* TheTutorialTests.m */,
 				97998C1918B0693200634D78 /* Supporting Files */,
 			);
+			name = PLRTutorialTests;
 			path = TheTutorialTests;
 			sourceTree = "<group>";
 		};
 		97998C1918B0693200634D78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97998C1A18B0693200634D78 /* TheTutorialTests-Info.plist */,
+				97998C1A18B0693200634D78 /* PLRTutorialTests-Info.plist */,
 				97998C1B18B0693200634D78 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97998BE918B0693200634D78 /* TheTutorial */ = {
+		97998BE918B0693200634D78 /* PLRTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97998C2218B0693200634D78 /* Build configuration list for PBXNativeTarget "TheTutorial" */;
+			buildConfigurationList = 97998C2218B0693200634D78 /* Build configuration list for PBXNativeTarget "PLRTutorial" */;
 			buildPhases = (
 				97998BE618B0693200634D78 /* Sources */,
 				97998BE718B0693200634D78 /* Frameworks */,
@@ -167,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = TheTutorial;
+			name = PLRTutorial;
 			productName = TheTutorial;
-			productReference = 97998BEA18B0693200634D78 /* TheTutorial.app */;
+			productReference = 97998BEA18B0693200634D78 /* PLRTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97998C1018B0693200634D78 /* TheTutorialTests */ = {
+		97998C1018B0693200634D78 /* PLRTutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97998C2518B0693200634D78 /* Build configuration list for PBXNativeTarget "TheTutorialTests" */;
+			buildConfigurationList = 97998C2518B0693200634D78 /* Build configuration list for PBXNativeTarget "PLRTutorialTests" */;
 			buildPhases = (
 				97998C0D18B0693200634D78 /* Sources */,
 				97998C0E18B0693200634D78 /* Frameworks */,
@@ -185,9 +187,9 @@
 			dependencies = (
 				97998C1718B0693200634D78 /* PBXTargetDependency */,
 			);
-			name = TheTutorialTests;
+			name = PLRTutorialTests;
 			productName = TheTutorialTests;
-			productReference = 97998C1118B0693200634D78 /* TheTutorialTests.xctest */;
+			productReference = 97998C1118B0693200634D78 /* PLRTutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97998BE518B0693200634D78 /* Build configuration list for PBXProject "TheTutorial" */;
+			buildConfigurationList = 97998BE518B0693200634D78 /* Build configuration list for PBXProject "PLRTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97998BE918B0693200634D78 /* TheTutorial */,
-				97998C1018B0693200634D78 /* TheTutorialTests */,
+				97998BE918B0693200634D78 /* PLRTutorial */,
+				97998C1018B0693200634D78 /* PLRTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		97998C1718B0693200634D78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97998BE918B0693200634D78 /* TheTutorial */;
+			target = 97998BE918B0693200634D78 /* PLRTutorial */;
 			targetProxy = 97998C1618B0693200634D78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,9 +374,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TheTutorial/TheTutorial-Prefix.pch";
-				INFOPLIST_FILE = "TheTutorial/TheTutorial-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TheTutorial/PLRTutorial-Prefix.pch";
+				INFOPLIST_FILE = "TheTutorial/PLRTutorial-Info.plist";
+				PRODUCT_NAME = PLRTutorial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,9 +387,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TheTutorial/TheTutorial-Prefix.pch";
-				INFOPLIST_FILE = "TheTutorial/TheTutorial-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TheTutorial/PLRTutorial-Prefix.pch";
+				INFOPLIST_FILE = "TheTutorial/PLRTutorial-Info.plist";
+				PRODUCT_NAME = PLRTutorial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -408,8 +410,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TheTutorialTests/TheTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TheTutorialTests/PLRTutorialTests-Info.plist";
+				PRODUCT_NAME = PLRTutorialTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -427,8 +429,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheTutorial/TheTutorial-Prefix.pch";
-				INFOPLIST_FILE = "TheTutorialTests/TheTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TheTutorialTests/PLRTutorialTests-Info.plist";
+				PRODUCT_NAME = PLRTutorialTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -437,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97998BE518B0693200634D78 /* Build configuration list for PBXProject "TheTutorial" */ = {
+		97998BE518B0693200634D78 /* Build configuration list for PBXProject "PLRTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97998C2018B0693200634D78 /* Debug */,
@@ -446,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97998C2218B0693200634D78 /* Build configuration list for PBXNativeTarget "TheTutorial" */ = {
+		97998C2218B0693200634D78 /* Build configuration list for PBXNativeTarget "PLRTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97998C2318B0693200634D78 /* Debug */,
@@ -454,7 +456,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		97998C2518B0693200634D78 /* Build configuration list for PBXNativeTarget "TheTutorialTests" */ = {
+		97998C2518B0693200634D78 /* Build configuration list for PBXNativeTarget "PLRTutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97998C2618B0693200634D78 /* Debug */,
