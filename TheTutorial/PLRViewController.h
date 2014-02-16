@@ -10,4 +10,8 @@
 
 @interface PLRViewController : UIViewController
 
+@property (nonatomic,weak) IBOutlet UIButton *button;
+@property (nonatomic,weak) IBOutlet UIPageControl *pageControl;
+- (IBAction)pushedButton:(id)sender;
+
 @end
