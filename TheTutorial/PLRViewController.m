@@ -10,8 +10,6 @@
 
 #define PAGE_COUNT 3
 #define HEXCOLOR(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
-#define IS_4_INCH  ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
-
 
 #define APP_COLOR HEXCOLOR(0x092793)
 #define BG_COLOR HEXCOLOR(0xf7f6f8)
@@ -59,9 +57,10 @@
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
     
+    BOOL is4inch = ([[UIScreen mainScreen] bounds].size.height == 568) ? YES : NO;
     CGFloat offsetYTitle = 0;
     CGFloat offsetYContent = 0;
-    if(!IS_4_INCH){
+    if(!is4inch){
         offsetYTitle = 22;
         offsetYContent = 88;
     }
