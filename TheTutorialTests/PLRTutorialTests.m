@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TheTutorialTests : XCTestCase
+@interface PLRTutorialTests : XCTestCase
 
 @end
 
-@implementation TheTutorialTests
+@implementation PLRTutorialTests
 
 - (void)setUp
 {

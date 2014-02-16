@@ -18,7 +18,7 @@
 		97998C1418B0693200634D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97998BED18B0693200634D78 /* Foundation.framework */; };
 		97998C1518B0693200634D78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97998BF118B0693200634D78 /* UIKit.framework */; };
 		97998C1D18B0693200634D78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97998C1B18B0693200634D78 /* InfoPlist.strings */; };
-		97998C1F18B0693200634D78 /* TheTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C1E18B0693200634D78 /* TheTutorialTests.m */; };
+		97998C1F18B0693200634D78 /* PLRTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C1E18B0693200634D78 /* PLRTutorialTests.m */; };
 		97998C2B18B06A4900634D78 /* PLRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C2918B06A4900634D78 /* PLRViewController.m */; };
 		97998C2C18B06A4900634D78 /* PLRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97998C2A18B06A4900634D78 /* PLRViewController.xib */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		97998C1218B0693200634D78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		97998C1A18B0693200634D78 /* PLRTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLRTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		97998C1C18B0693200634D78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		97998C1E18B0693200634D78 /* TheTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheTutorialTests.m; sourceTree = "<group>"; };
+		97998C1E18B0693200634D78 /* PLRTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLRTutorialTests.m; sourceTree = "<group>"; };
 		97998C2818B06A4900634D78 /* PLRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRViewController.h; sourceTree = "<group>"; };
 		97998C2918B06A4900634D78 /* PLRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRViewController.m; sourceTree = "<group>"; };
 		97998C2A18B06A4900634D78 /* PLRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLRViewController.xib; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		97998C1818B0693200634D78 /* PLRTutorialTests */ = {
 			isa = PBXGroup;
 			children = (
-				97998C1E18B0693200634D78 /* TheTutorialTests.m */,
+				97998C1E18B0693200634D78 /* PLRTutorialTests.m */,
 				97998C1918B0693200634D78 /* Supporting Files */,
 			);
 			name = PLRTutorialTests;
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97998C1F18B0693200634D78 /* TheTutorialTests.m in Sources */,
+				97998C1F18B0693200634D78 /* PLRTutorialTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
