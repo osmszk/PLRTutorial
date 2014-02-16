@@ -10,6 +10,8 @@
 
 #define PAGE_COUNT 3
 #define HEXCOLOR(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
+#define IS_4_INCH  ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
+
 
 #define APP_COLOR HEXCOLOR(0x092793)
 #define BG_COLOR HEXCOLOR(0xf7f6f8)
@@ -33,6 +35,8 @@
 {
     [super viewDidLoad];
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     self.view.backgroundColor = BG_COLOR;
     
     [_button setTitleColor:APP_COLOR forState:UIControlStateNormal];
@@ -41,8 +45,12 @@
     
     CGSize displaySize = [[UIScreen mainScreen] bounds].size;
     
-    CGSize contentSize = CGSizeMake(displaySize.width*PAGE_COUNT, displaySize.height-20-50);
-    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, displaySize.width, displaySize.height-20-50)];
+    UIView *statusBarBgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, displaySize.width, 20)];
+    statusBarBgView.backgroundColor = APP_COLOR;
+    [self.view addSubview:statusBarBgView];
+    
+    CGSize contentSize = CGSizeMake(displaySize.width*PAGE_COUNT, displaySize.height-50-20);
+    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 20, displaySize.width, displaySize.height-20-50)];
     scrollView.delegate = self;
     scrollView.backgroundColor = [UIColor whiteColor];
     scrollView.pagingEnabled = YES;
@@ -51,15 +59,22 @@
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
     
+    CGFloat offsetYTitle = 0;
+    CGFloat offsetYContent = 0;
+    if(!IS_4_INCH){
+        offsetYTitle = 22;
+        offsetYContent = 88;
+    }
+    
     for(NSInteger i=0 ;i<PAGE_COUNT; i++){
-        UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(displaySize.width*i, 0, displaySize.width, displaySize.height-20-50)];
+        UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(displaySize.width*i, 0, displaySize.width, displaySize.height-50-20)];
         contentView.backgroundColor = BG_COLOR;
         
         UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, displaySize.width, 240)];
         imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"tutorial_image%d",(int)i+1]];
         [contentView addSubview:imageView];
         
-        UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 270, 240, 32)];
+        UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 270-offsetYTitle, 240, 32)];
         titleLabel.text = [NSString stringWithFormat:@"title%d",(int)i];
         titleLabel.textColor = APP_COLOR;
         titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -67,7 +82,7 @@
         titleLabel.backgroundColor = [UIColor clearColor];
         [contentView addSubview:titleLabel];
         
-        UILabel *contentLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 312, 240, 240)];
+        UILabel *contentLabel = [[UILabel alloc]initWithFrame:CGRectMake(40, 312-offsetYContent, 240, 220)];
         contentLabel.text = [NSString stringWithFormat:@"AAAAAAAAAAAAAAAAA\nbbbbbbbbbbbbbbbbb\nccccccccccccccccccc\ndddddddddddddddd"];
         contentLabel.textColor = [UIColor grayColor];
         contentLabel.textAlignment = NSTextAlignmentCenter;
