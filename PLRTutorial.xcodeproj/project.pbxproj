@@ -21,6 +21,9 @@
 		97998C1F18B0693200634D78 /* PLRTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C1E18B0693200634D78 /* PLRTutorialTests.m */; };
 		97998C2B18B06A4900634D78 /* PLRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97998C2918B06A4900634D78 /* PLRViewController.m */; };
 		97998C2C18B06A4900634D78 /* PLRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97998C2A18B06A4900634D78 /* PLRViewController.xib */; };
+		97998C3118B071E000634D78 /* tutorial_image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 97998C2E18B071E000634D78 /* tutorial_image1.png */; };
+		97998C3218B071E000634D78 /* tutorial_image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 97998C2F18B071E000634D78 /* tutorial_image2.png */; };
+		97998C3318B071E000634D78 /* tutorial_image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 97998C3018B071E000634D78 /* tutorial_image3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		97998C2818B06A4900634D78 /* PLRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRViewController.h; sourceTree = "<group>"; };
 		97998C2918B06A4900634D78 /* PLRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRViewController.m; sourceTree = "<group>"; };
 		97998C2A18B06A4900634D78 /* PLRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLRViewController.xib; sourceTree = "<group>"; };
+		97998C2E18B071E000634D78 /* tutorial_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image1.png; sourceTree = "<group>"; };
+		97998C2F18B071E000634D78 /* tutorial_image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image2.png; sourceTree = "<group>"; };
+		97998C3018B071E000634D78 /* tutorial_image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 		97998BF418B0693200634D78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97998C2D18B071D700634D78 /* image */,
 				97998BF518B0693200634D78 /* PLRTutorial-Info.plist */,
 				97998BF618B0693200634D78 /* InfoPlist.strings */,
 				97998BF918B0693200634D78 /* main.m */,
@@ -152,6 +159,16 @@
 				97998C1B18B0693200634D78 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97998C2D18B071D700634D78 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				97998C2E18B071E000634D78 /* tutorial_image1.png */,
+				97998C2F18B071E000634D78 /* tutorial_image2.png */,
+				97998C3018B071E000634D78 /* tutorial_image3.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97998C0C18B0693200634D78 /* Images.xcassets in Resources */,
+				97998C3118B071E000634D78 /* tutorial_image1.png in Resources */,
 				97998C2C18B06A4900634D78 /* PLRViewController.xib in Resources */,
 				97998BF818B0693200634D78 /* InfoPlist.strings in Resources */,
+				97998C3218B071E000634D78 /* tutorial_image2.png in Resources */,
+				97998C3318B071E000634D78 /* tutorial_image3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
