@@ -59,6 +59,7 @@
 		97998C2E18B071E000634D78 /* tutorial_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image1.png; sourceTree = "<group>"; };
 		97998C2F18B071E000634D78 /* tutorial_image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image2.png; sourceTree = "<group>"; };
 		97998C3018B071E000634D78 /* tutorial_image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_image3.png; sourceTree = "<group>"; };
+		97C18FD418C336F000B53C29 /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +127,6 @@
 				97998C0B18B0693200634D78 /* Images.xcassets */,
 				97998BF418B0693200634D78 /* Supporting Files */,
 			);
-			name = PLRTutorial;
 			path = PLRTutorial;
 			sourceTree = "<group>";
 		};
@@ -148,7 +148,6 @@
 				97998C1E18B0693200634D78 /* PLRTutorialTests.m */,
 				97998C1918B0693200634D78 /* Supporting Files */,
 			);
-			name = PLRTutorialTests;
 			path = PLRTutorialTests;
 			sourceTree = "<group>";
 		};
@@ -164,6 +163,7 @@
 		97998C2D18B071D700634D78 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				97C18FD418C336F000B53C29 /* screenshot.gif */,
 				97998C2E18B071E000634D78 /* tutorial_image1.png */,
 				97998C2F18B071E000634D78 /* tutorial_image2.png */,
 				97998C3018B071E000634D78 /* tutorial_image3.png */,
@@ -475,6 +475,7 @@
 				97998C2418B0693200634D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97998C2518B0693200634D78 /* Build configuration list for PBXNativeTarget "PLRTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				97998C2718B0693200634D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
